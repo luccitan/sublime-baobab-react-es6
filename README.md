@@ -12,10 +12,10 @@
   - Adding a snippet to create a rooted component using the Baobab higher-order components
   - Adding a snippet to create a branched component using the Baobab higher-order components
 
-  **New snippets brought by this fork are not supported for Coffeescript,
-  feel free to contribute to it**
+  **/!\ New snippets brought by this fork are not supported for Coffeescript,
+  feel free to contribute to it /!\**
 
-  ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-baorc-out.gif)
+  ![alt tag](https://raw.githubusercontent.com/luccitan/sublime-baobab-react-es6/master/docs/img/sr-baorc-out.gif)
   ## Installation
   [WIP]
   ## Usage
