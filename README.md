@@ -1,47 +1,24 @@
-# sublime-react-es6
+# sublime-baobab-react-es6
+  This is a fork of [mbopreator's React ES6 Sublime Package](https://github.com/mboperator/sublime-react-es6)
+  This fork keeps the following main features:
+  - Converting function declarations to the new ES6 shorthand.
+  - Static class variables (defaultProps, propTypes) are declared using ES7 property intializers.
+  - ES6 style exports and imports for component creating snippets.
 
-This is a fork of Facebook's original ReactJS Sublime Package.
+  This fork brings these main changes:
+  - Removing `rrc` for Redux connected components. (not used with Baobab simultaneously)
 
-The main changes I've made include:
-
-- Converting function declarations to the new ES6 shorthand.
-
-- Static class variables (defaultProps, propTypes) are declared using ES7 property intializers.
-
-- ES6 style exports and imports for component creating snippets.
-
-- Added `rrc` for Redux connected components.
-
-![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-rcc-out.gif)
-
-## Installation
-
-Install the React package via Sublime's Package Manager
-
-You will need the Sublime [Package Manager](https://sublime.wbond.net/installation).
-
-- Open the command palette: `⌘+shift+p` on MacOS/Linux, `ctrl+shift+p` on Windows
-
-- type `install`, select `Package Control: Install Package`
-
-- type `React`, select `React ES6 Snippets`
-
-## Usage
-
-### Syntax highlighting
-
-*Syntax highlighting is no longer provided by this packages*. We recommend that you use ([babel-sublime](https://github.com/babel/babel-sublime)) instead.
-
-### Snippets
-
-It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
-
-![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-snippets-out.gif)
-
-#### Documentation of available snippets (JSX):
-
-```
-    cdm→  componentDidMount: fn() { ... }
+  ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-rcc-out.gif)
+  ## Installation
+  [WIP]
+  ## Usage
+  ### Syntax highlighting
+  *Syntax highlighting is not provided by this package. Using [babel-sublime](https://github.com/babel/babel-sublime) instead is recommanded.
+  ### Snippets
+  It's easy! Simply activate snippets by typing a mnemonic followed by TAB
+  ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-snippets-out.gif)
+  #### Documentation of available snippets (JSX):
+  ```    cdm→  componentDidMount: fn() { ... }
 
    cdup→  componentDidUpdate: fn(pp, ps) { ... }
 
