@@ -9,6 +9,8 @@
 
   This fork brings these main changes:
   - Removing `rrc` for Redux connected components. (not used with Baobab simultaneously)
+  - Adding a snippet to create a rooted component using the Baobab higher-order components
+  - Adding a snippet to create a branched component using the Baobab higher-order components
 
   ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-rcc-out.gif)
   ## Installation
@@ -23,7 +25,11 @@
   #### Documentation of available snippets (JSX):
   
     ```
-        cdm→  componentDidMount: fn() { ... }
+      baobc→  Baobab-React: branched component skeleton
+
+  baorc→  Baobab-React: rooted component skeleton
+
+    cdm→  componentDidMount: fn() { ... }
 
    cdup→  componentDidUpdate: fn(pp, ps) { ... }
 
@@ -53,13 +59,9 @@
 
      pt→  propTypes { ... }
 
-    rcc→  component skeleton
-
    refs→  this.refs.
 
     ren→  render: fn() { return ... }
-
-    rrc→  redux component skeleton
 
     scu→  shouldComponentUpdate: fn(np, ns) { ... }
 

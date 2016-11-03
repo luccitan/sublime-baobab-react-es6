@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { root } from 'baobab-react/higher-order';
+import state from '${9:BAOBAB_STATE_PATH}';
+
+class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
+	static propTypes = {
+		${3:name}: React.PropTypes.${4:string},
+	};
+
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+			<${5:div}></${5:div}>
+		);
+	}
+}
+
+const RootApp = root(state, ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}});
+ReactDOM.render(<RootApp />, document.querySelector('${8:selector}'));
+
+]]></content>
+    <tabTrigger>baorc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Baobab-React: rooted component skeleton</description>
+</snippet>

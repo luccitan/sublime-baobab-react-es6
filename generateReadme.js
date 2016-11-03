@@ -13,8 +13,13 @@ var DOCUMENTATION_TOP =
 
   This fork brings these main changes:
   - Removing \`rrc\` for Redux connected components. (not used with Baobab simultaneously)
+  - Adding a snippet to create a rooted component using the Baobab higher-order components
+  - Adding a snippet to create a branched component using the Baobab higher-order components
 
-  ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-rcc-out.gif)
+  **New snippets brought by this fork are not supported for Coffeescript,
+  feel free to contribute to it**
+
+  ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-baorc-out.gif)
   ## Installation
   [WIP]
   ## Usage

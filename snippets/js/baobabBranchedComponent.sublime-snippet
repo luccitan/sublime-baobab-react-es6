@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import { branch } from 'baobab-react/higher-order';
+
+class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
+	static propTypes = {
+		${3:name}: React.PropTypes.${4:string},
+	};
+
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+			<${5:div}></${5:div}>
+		);
+	}
+}
+
+export default branch({
+  ${6:cursor}: ['${7}']
+}, ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})
+
+]]></content>
+    <tabTrigger>baobc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Baobab-React: branched component skeleton</description>
+</snippet>
