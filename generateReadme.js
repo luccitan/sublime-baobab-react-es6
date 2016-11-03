@@ -2,28 +2,27 @@ var fs = require('fs');
 var async = require('async');
 
 var DOCUMENTATION_TOP =
-  '# sublime-react-es6\n\n' +
-  'This is a fork of Facebook\'s original ReactJS Sublime Package.\n\n'+
-  'The main changes I\'ve made include:\n\n' +
-  '- Converting function declarations to the new ES6 shorthand.\n\n'+
-  '- Static class variables (defaultProps, propTypes) are declared using ES7 property intializers.\n\n'+
-  '- ES6 style exports and imports for component creating snippets.\n\n'+
-  '- Added `rrc` for Redux connected components.\n\n'+
-  '![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-rcc-out.gif)\n\n' +
-  '## Installation\n\n' +
-  'Install the React package via Sublime\'s Package Manager\n\n' +
-  'You will need the Sublime [Package Manager](https://sublime.wbond.net/installation).\n\n' +
-  '- Open the command palette: `⌘+shift+p` on MacOS/Linux, `ctrl+shift+p` on Windows\n\n' +
-  '- type `install`, select `Package Control: Install Package`\n\n' +
-  '- type `React`, select `React ES6 Snippets`\n\n' +
-  '## Usage\n\n' +
-  '### Syntax highlighting\n\n' +
-  '*Syntax highlighting is no longer provided by this packages*. We recommend that you use ([babel-sublime](https://github.com/babel/babel-sublime)) instead.\n\n' +
-  '### Snippets\n\n' +
-  'It\'s easy! Simply activate snippets by typing a mnemonic followed by TAB.\n\n' +
-  '![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-snippets-out.gif)\n\n' +
-  '#### Documentation of available snippets (JSX):\n\n' +
-  '```\n';
+  `# sublime-baobab-react-es6
+  This is a fork of [mbopreator's React ES6 Sublime Package](https://github.com/mboperator/sublime-react-es6)
+  This fork keeps the following main features:
+  - Converting function declarations to the new ES6 shorthand.
+  - Static class variables (defaultProps, propTypes) are declared using ES7 property intializers.
+  - ES6 style exports and imports for component creating snippets.
+
+  This fork brings these main changes:
+  - Removing \`rrc\` for Redux connected components. (not used with Baobab simultaneously)
+
+  ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-rcc-out.gif)
+  ## Installation
+  [WIP]
+  ## Usage
+  ### Syntax highlighting
+  *Syntax highlighting is not provided by this package. Using [babel-sublime](https://github.com/babel/babel-sublime) instead is recommanded.
+  ### Snippets
+  It's easy! Simply activate snippets by typing a mnemonic followed by TAB
+  ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-snippets-out.gif)
+  #### Documentation of available snippets (JSX):
+  \`\`\``;
 
 var DOCUMENTATION_BOTTOM =
   '```\n\n' +
