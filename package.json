@@ -1,6 +1,6 @@
 {
   "name": "sublime-baobab-react-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": " Tanguy Lucci <lcc.tanguy@gmail.com>, Marcus Bernales <marcusbernales@gmail.com>, Jonas Gebhardt <jonas.gebhardt@gmail.com>",
   "description": "Sublime Text helpers for a ReactJS/Baobab environment",
   "scripts": {

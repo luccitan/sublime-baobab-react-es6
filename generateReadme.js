@@ -33,11 +33,13 @@ var DOCUMENTATION_TOP =
 
 var DOCUMENTATION_BOTTOM =
   `
-  ## Contributing
-  ### Rebuilding the docs
-  After making changes to snippet files, run \`npm install && npm run build-docs\` to automatically
-  generate this document from source. **Do not** make changes to README.md directly.
-  `
+## Contributing
+
+### Rebuilding the docs
+
+After making changes to snippet files, run \`npm install && npm run build-docs\` to automatically
+generate this document from source. **Do not** make changes to README.md directly.
+`;
 
 fs.readdir('./snippets/js', function(err, files) {
 
