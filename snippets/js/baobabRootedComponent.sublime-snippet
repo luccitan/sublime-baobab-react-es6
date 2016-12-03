@@ -27,5 +27,5 @@ ReactDOM.render(<RootApp />, document.querySelector('${8:selector}'));
 ]]></content>
     <tabTrigger>baorc</tabTrigger>
     <scope>source.js</scope>
-    <description>Baobab-React: rooted component skeleton</description>
+    <description>baobab-rooted component skeleton</description>
 </snippet>

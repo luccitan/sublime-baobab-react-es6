@@ -26,11 +26,10 @@
   It's easy! Simply activate snippets by typing a mnemonic followed by TAB
   ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-snippets-out.gif)
   #### Documentation of available snippets (JSX):
-  
-    ```
-      baobc→  Baobab-React: branched component skeleton
+```
+  baobc→  baobab-branched component skeleton
 
-  baorc→  Baobab-React: rooted component skeleton
+  baorc→  baobab-rooted component skeleton
 
     cdm→  componentDidMount: fn() { ... }
 
@@ -62,6 +61,8 @@
 
      pt→  propTypes { ... }
 
+    rcc→  component skeleton
+
    refs→  this.refs.
 
     ren→  render: fn() { return ... }
@@ -72,9 +73,8 @@
 
   state→  this.state.
 
+```
 
-    ```
-    
   ## Contributing
   ### Rebuilding the docs
   After making changes to snippet files, run `npm install && npm run build-docs` to automatically

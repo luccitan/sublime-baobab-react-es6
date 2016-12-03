@@ -29,8 +29,7 @@ var DOCUMENTATION_TOP =
   ### Snippets
   It's easy! Simply activate snippets by typing a mnemonic followed by TAB
   ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-snippets-out.gif)
-  #### Documentation of available snippets (JSX):
-  `;
+  #### Documentation of available snippets (JSX):`;
 
 var DOCUMENTATION_BOTTOM =
   `
@@ -62,11 +61,18 @@ fs.readdir('./snippets/js', function(err, files) {
       .join('');
 
     var snippetDocs =
-    `${DOCUMENTATION_TOP}
-    \`\`\`
-    ${DOCUMENTATION_MIDDLE}
-    \`\`\`
-    ${DOCUMENTATION_BOTTOM}`;
+      `${DOCUMENTATION_TOP}\n\`\`\`\n`
+      + results
+        .map(snippet => inspectFile(snippet))
+        .sort((a,b) => a.abbreviation > b.abbreviation
+          ? 1
+          : a.abbreviation === b.abbreviation
+            ? 0
+            : -1
+          )
+        .map(snippet => snippet.docBlock)
+        .join('')
+      + `\`\`\`\n${DOCUMENTATION_BOTTOM}`
 
     fs.writeFile('README.md', snippetDocs, function (err) {
       if (err) {

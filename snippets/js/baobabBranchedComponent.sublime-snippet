@@ -26,5 +26,5 @@ export default branch({
 ]]></content>
     <tabTrigger>baobc</tabTrigger>
     <scope>source.js</scope>
-    <description>Baobab-React: branched component skeleton</description>
+    <description>baobab-branched component skeleton</description>
 </snippet>
