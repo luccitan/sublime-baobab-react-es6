@@ -1,14 +1,14 @@
 {
-  "name": "sublime-react-es6",
-  "version": "0.3.1",
-  "author": "Marcus Bernales <marcusbernales@gmail.com>, Jonas Gebhardt <jonas.gebhardt@gmail.com>",
-  "description": "Sublime Text helpers for ReactJS",
+  "name": "sublime-baobab-react-es6",
+  "version": "0.1.0",
+  "author": " Tanguy Lucci <lcc.tanguy@gmail.com>, Marcus Bernales <marcusbernales@gmail.com>, Jonas Gebhardt <jonas.gebhardt@gmail.com>",
+  "description": "Sublime Text helpers for a ReactJS/Baobab environment",
   "scripts": {
     "build-docs": "node ./generateReadme.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mboperator/sublime-react-es6"
+    "url": "https://github.com/luccitan/sublime-baobab-react-es6"
   },
   "dependencies" : {
     "async": "~0.7.0"
