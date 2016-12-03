@@ -1,0 +1,24 @@
+=== Baobab-React Sublime Snippet Release ===
+
+This is the first release of this snippet. It's a simple fork of mboperator's snippet that you can find there :
+https://github.com/mboperator/sublime-react-es6
+
+It adds two components used to stick the Baobab data tree in a React application.
+For more informations about Baobab, you can find the two associated repos there :
+
+- https://github.com/Yomguithereal/baobab
+- https://github.com/Yomguithereal/baobab-react
+
+   ___             _           _                               _
+  / __\ __ _  ___ | |__   __ _| |__        _ __ ___  __ _  ___| |_
+ /__\/// _` |/ _ \| '_ \ / _` | '_ \ _____| '__/ _ \/ _` |/ __| __|
+/ \/  \ (_| | (_) | |_) | (_| | |_) |_____| | |  __/ (_| | (__| |_
+\_____/\__,_|\___/|_.__/ \__,_|_.__/      |_|  \___|\__,_|\___|\__|
+
+           _                  _
+ ___ _ __ (_)_ __  _ __   ___| |_
+/ __| '_ \| | '_ \| '_ \ / _ \ __|
+\__ \ | | | | |_) | |_) |  __/ |_
+|___/_| |_|_| .__/| .__/ \___|\__|
+            |_|   |_|
+
