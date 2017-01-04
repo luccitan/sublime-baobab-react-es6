@@ -4,7 +4,10 @@ var async = require('async');
 var DOCUMENTATION_TOP =`
 # sublime-baobab-react-es6
 This is a fork of
-[mbopreator's React ES6 Sublime Package](https://github.com/mboperator/sublime-react-es6)
+[mbopreator's React ES6 Sublime Package](https://github.com/mboperator/sublime-react-es6).
+It intends to bring snippets for [Baobab](https://github.com/Yomguithereal/baobab) users along with React,
+thanks to the [higher-order components integration](https://github.com/Yomguithereal/baobab-react/blob/master/docs/higher-order.md)
+
 
 This fork keeps the following main features:
 - Converting function declarations to the new ES6 shorthand.
